@@ -1,0 +1,30 @@
+:root {
+  /* Colores Institucionales UACh */
+  --uach-red: #C8102E;      /* Pantone 200 */
+  --uach-blue: #D4E5F7;     /* Pantone 290 */
+  --uach-yellow: #FFC72C;   /* Pantone 123 */
+  --uach-green: #00843D;    /* Pantone 349 */
+  --uach-black: #000000;    /* Black */
+  --uach-gray-1: #666666;   /* 60% Black */
+  --uach-gray-2: #999999;   /* 40% Black */
+  --uach-gray-3: #B3B3B3;   /* 30% Black */
+  --uach-puerto-montt: #0097C4;  /* Pantone 314C */
+  
+  /* Variaciones funcionales */
+  --primary: var(--uach-puerto-montt);
+  --primary-light: #33ADCF;
+  --primary-dark: #007A9E;
+  --secondary: var(--uach-red);
+  --secondary-light: #D34054;
+  --secondary-dark: #A00C24;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: var(--primary);
+}

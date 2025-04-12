@@ -1,0 +1,30 @@
+# Directorios
+node_modules/
+vendor/
+public/assets/
+storage/logs/*
+storage/cache/*
+storage/temp/*
+
+# Excepciones para mantener estructura de directorios
+!storage/logs/.gitkeep
+!storage/cache/.gitkeep
+!storage/temp/.gitkeep
+
+# Base de datos
+database/*.sqlite
+database/backups/*
+!database/backups/.gitkeep
+
+# Archivos de configuración
+.env
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de IDEs y editores
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
